@@ -18,8 +18,8 @@ jobs:
       matrix:
         node-version: [20, 22, 24]
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - uses: actions/checkout@v6
+    - uses: actions/setup-node@v6
       with:
         node-version: ${{ matrix.node-version }}
         registry-url: 'https://registry.npmjs.org'
@@ -27,7 +27,7 @@ jobs:
     - run: npm run lint:ci --if-present
     - run: npm run test:coverage --if-present
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v4
+      uses: codecov/codecov-action@v5
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: ./coverage/lcov.info
@@ -40,8 +40,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - uses: actions/checkout@v6
+    - uses: actions/setup-node@v6
       with:
         node-version: '24'
         registry-url: 'https://registry.npmjs.org'
