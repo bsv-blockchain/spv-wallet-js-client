@@ -969,10 +969,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bsv/sdk@^1.1.13":
-  version "1.3.28"
-  resolved "https://registry.yarnpkg.com/@bsv/sdk/-/sdk-1.3.28.tgz#7ba540afd36519dc4b4f0766eabc06cd3673ee79"
-  integrity sha512-IrWCnKNwzZEkIyJhj8UThEXooF3OpjhRiSQ+48HZYka0JE0hDkIpfb0MeqtX3rivj8TVj6/M99Sx5NYqo0J6Ow==
+"@bsv/sdk@^2.5.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@bsv/sdk/-/sdk-2.6.0.tgz#f6bb2954b4ea66bb4fda9441a18550eb00367bd0"
+  integrity sha512-sha4uZvrY1PPbbT2HrH03Bbb2ifsNDI768Rz9f2NnQzOE8O85HH1eyeQUmj2qy13yWF8zZh98XuWZTSx4uH0JA==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
