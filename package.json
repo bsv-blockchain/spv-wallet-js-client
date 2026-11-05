@@ -68,8 +68,11 @@
     "typedoc": "^0.27.4",
     "typescript": "^5.5.4"
   },
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
-    "@bsv/sdk": "^1.1.13",
+    "@bsv/sdk": "^2.5.0",
     "@types/rollup-plugin-node-builtins": "^2.1.5",
     "cross-fetch": "^4.0.0"
   }
